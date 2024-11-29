@@ -1,1 +1,1 @@
-Este es EL PRIMER DOCTO que subiré a GitHub a través de GIT.
+# Ejercicio de Markdown Bienvenido al **ejercicio práctico de Markdown**. En este archivo, aprenderás a usar los elementos básicos de Markdown. ## 1. Encabezados Los encabezados en Markdown se crean usando el símbolo `#`. Aquí tienes ejemplos de encabezados: - `# Encabezado Nivel 1` - `## Encabezado Nivel 2` - `### Encabezado Nivel 3` ## 2. Listas Puedes crear **listas ordenadas** y **listas no ordenadas**. ### Lista no ordenada - Elemento 1 - Elemento 2 - Sub-elemento 2.1 - Sub-element
