@@ -1,0 +1,26 @@
+CodeCommit versionamiento de código AWS
+
+Clonar: copia exacta de una version en un server remoto a mi pc local.
+
+Repositorio: carpeta que graba los cambios realizados.
+
+Commit: punto de guardado que captura el estado actual del proyecto. al cual se puede regresar en algún punto necesario.
+
+Rama: linea de trabajo independiente del principal. Que permite fusionar a la rama principal al ser requerido. 
+
+Workspace: area de trabajo local.
+
+Staging: Memoria RAM de la PC. Guarda modificaciones pero no de forma permanente.
+
+Local Repository: Es afectado por el commit y graba los cambios en el repositorio de ROM.
+
+Remote Repository: Es afectado por el git push y graba los cambios en el repositorio de la nube.
+
+git commit -a: Es una combinación de git add y git commit, que sincroniza todo
+
+git reset: quita los cambios del git add
+
+git reset <commit>: reinicia desde un commit
+
+git fetch: reinicia los cambios desde un commit del repositorio nube
+
