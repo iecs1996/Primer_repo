@@ -24,3 +24,17 @@ git reset <commit>: reinicia desde un commit
 
 git fetch: reinicia los cambios desde un commit del repositorio nube
 
+git pull: sincroniza los cambios desde el repositorio remoto a un repositorio ya creado.
+SIEMPRE QUE SE TRABAJE EN EQUIPO UN PROYECTO COLABORATIVO SE DEBE ARRANCAR CON UN GIT PULL PARA SINCRONIZAR DATOS.
+
+crear rama:
+git checkout -b <nombre de rama>
+
+git branch: Muestra las ramas que existen y resalta la rama en la que se está trabajando.
+
+git merge: fusiona los cambios de una rama a la rama principal
+SOLO SE HACE DESDE EL MAIN
+
+
+
+
