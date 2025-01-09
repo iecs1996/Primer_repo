@@ -36,5 +36,26 @@ git merge: fusiona los cambios de una rama a la rama principal
 SOLO SE HACE DESDE EL MAIN
 
 
+----------------BUENAS PRACTICAS DE HACER COMMITS------------------------------
+1. Hacerlos frecuentes y documentados comprensiblemente para mantener un historial claro y comprensible de los cambios hechos.
+
+2. Ordenar cada cambio con su commit para una correcta representación de los cambios.
+
+3. Mensajes claros en cada commit
+
+4. Aplicar una estructura en los commit, un titulo y una descripción
+
+----------------------GIT IGNORE-----------------------------------------
+Git ignore es un archivo que le indica a GIT que debe incluir o ignorar en su repositorio.
+Porque usar Git Ignore
+1. Mantener el repositorio limpio: no subir archivos temporales o archivos basura.
+2. Proteger información sensible: Evita que información sensible se suba como claves API y Contraseñas.
+3. Reducir el tamaño del repositorio: mantiene la nube limpia y agiliza los procesos.
+4. Evita problemas de compatibilidad: Se puede dar el caso que un equipo tenga unos archivos de un tipo de programa que otro equipo no tenga.
+5. Facilita la colaboración: subir archivos que un desarrollador usa de forma especifica que pueden confundir al otro desarrollador. 
+
+
+
+
 
 
