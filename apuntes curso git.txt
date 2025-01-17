@@ -54,6 +54,21 @@ Porque usar Git Ignore
 4. Evita problemas de compatibilidad: Se puede dar el caso que un equipo tenga unos archivos de un tipo de programa que otro equipo no tenga.
 5. Facilita la colaboración: subir archivos que un desarrollador usa de forma especifica que pueden confundir al otro desarrollador. 
 
+-------------------------------------GIT RESTORE, GIT RESET, GIT REVERT--------------------------------------
+Manejo de cambios no confirmados: revertir y descartar cambios. 
+
+Git Restore: Descartar cambios en el directorio de trabajo, antes del staging. Son cambios en nuestra PC local. Previo al git add. No afecta commits
+
+Git Reset: Deshace commits y mueve archivos fuera del staging. Se usa cuando se quiere eliminar un commit. Hay 2 tipos:
+Soft: elimina el commit pero mantiene los cambios en el staging y workplace.
+Hard: Elimina el commit y los cambios realizados con ese commit. Es el normalmente utilizado. Se coloca head~X donde X es el numero de commits que se quiere eliminar.
+
+Git Revert: Deshace un commit y crea uno nuevo quitando los cambios previos. Se usa para mantener un historial limpio y mostrar explícitamente la corrección de un error. Afecta el historial de commits, crea uno nuevo. 
+
+
+
+
+
 
 
 
